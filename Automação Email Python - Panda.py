@@ -6,12 +6,12 @@ from email import encoders
 import smtplib
 import time
 
-Empresas = pd.read_excel('./empresaAE.xlsx')
+Empresas = pd.read_excel('./aquivoexcel.xlsx')
 
 for index, empresa in Empresas.iterrows():
     msg = MIMEMultipart()
-    msg['From'] = 'anam7615@gmail.com'
-    msg['To'] = empresa['Email']
+    msg['From'] = 'remetente@gmail.com'
+    msg['To'] = destinatario['Email']
     msg['Subject'] = 'Possibilidade de Estágio'
     message = f"""\
 Boa Tarde/Dia, {empresa['Empresas']}, tudo bem?
@@ -43,7 +43,7 @@ Boa Tarde/Dia, {empresa['Empresas']}, tudo bem?
     try:
         server = smtplib.SMTP('smtp.gmail.com', port=587)
         server.starttls()
-        server.login('anam7615@gmail.com', 'twoizwnwxfqzugtx')
+        server.login('remetente@gmail.com', 'senharemetente')
         server.send_message(msg)
         server.quit()
         print(f"Email sent to {empresa['Email']}")
