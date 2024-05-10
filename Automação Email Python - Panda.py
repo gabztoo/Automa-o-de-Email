@@ -18,11 +18,11 @@ def enviar_emails():
         for index, excel_row in excel.iterrows():
             msg = MIMEMultipart()
             msg['From'] = remetente.get()
-            msg['To'] = excel_row['email']
+            msg['To'] = excel_row['Email']
             msg['Subject'] = assunto_text.get()  # Usar o assunto fornecido pelo usuário
 
             # Adicionar saudação personalizada
-            saudacao = f"Boa tarde, {excel_row['pessoa']}!\n\n"  # Supondo que você tenha uma coluna 'pessoa' no Excel
+            saudacao = f"Boa tarde, {excel_row['Nome']}!\n\n"  # Supondo que você tenha uma coluna 'Nome' no Excel
             message = saudacao + mensagem_text.get("1.0", tk.END)
 
             # Corpo do e-mail
