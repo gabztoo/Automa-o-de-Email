@@ -31,3 +31,4 @@ Certifique-se de que a conta de e-mail do remetente tenha permissão para enviar
 Utilize uma senha de aplicativo do Google para autenticação, garantindo maior segurança e evitando problemas de acesso.
 É recomendável verificar as configurações de segurança da sua conta de e-mail para evitar bloqueios por parte do provedor de e-mail.
 Seguindo estes passos, você poderá enviar e-mails em massa de forma eficiente e segura utilizando o script Python com Tkinter e Pandas.
+![imagem_2024-05-10_163006438](https://github.com/gabztoo/Automa-o-de-Email/assets/162667498/683be1b8-eea4-405a-b10f-2611d73ebeae)
