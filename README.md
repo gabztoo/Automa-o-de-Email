@@ -1,3 +1,4 @@
+![imagem_2024-05-10_195535708](https://github.com/gabztoo/Automa-o-de-Email/assets/162667498/5f3e22e4-d769-4a93-9c24-0dfcc02f27b3)
 # Envio de E-mails em Massa utilizando Tkinter e Pandas
 
 Este é um script Python que utiliza a biblioteca Tkinter para criar uma interface gráfica simples e permitir o envio de e-mails em massa. O script carrega dados de um arquivo Excel, preenche os campos do e-mail com informações personalizadas e permite anexar arquivos antes de enviar os e-mails.
@@ -29,7 +30,9 @@ Clique no botão "Enviar E-mails" para iniciar o envio.
 Aguarde até que todos os e-mails sejam enviados. O progresso será exibido na interface.
 Observações:
 
-* Na planilha excel, tem de haver as colunas **"Email"** e **"Nome"**.
+* Na planilha excel, tem de haver as colunas **"Email"** e **"Nome"** (segue exemplo)
+![imagem_2024-05-10_195617670](https://github.com/gabztoo/Automa-o-de-Email/assets/162667498/078b51b6-e4db-4f52-9430-bc1c51c13a6f)
+.
 
 * Certifique-se de que a conta de e-mail do remetente tenha permissão para enviar e-mails via SMTP.
 
