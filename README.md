@@ -5,10 +5,15 @@ Este é um script Python que utiliza a biblioteca Tkinter para criar uma interfa
 ## Funcionalidades:
 
 Seleção de Arquivo Excel: Permite selecionar o arquivo Excel contendo os destinatários e outras informações necessárias.
+
 Autenticação do Remetente: Solicita o e-mail e a senha do remetente para autenticação no servidor SMTP. Recomenda-se utilizar uma senha de aplicativo do Google para garantir maior segurança.
+
 Personalização de E-mails: Permite personalizar o assunto e o corpo do e-mail com base nos dados do arquivo Excel.
+
 Anexo de Arquivos: Oferece a opção de anexar arquivos aos e-mails a serem enviados.
+
 Feedback de Envio: Fornece feedback em tempo real sobre para quem cada e-mail foi enviado.
+
 Pré-requisitos:
 
 ## Antes de executar o script, certifique-se de ter instalado todas as dependências necessárias. Você pode instalar as dependências listadas no arquivo requirements.txt usando o comando:
