@@ -29,6 +29,8 @@ Clique no botão "Enviar E-mails" para iniciar o envio.
 Aguarde até que todos os e-mails sejam enviados. O progresso será exibido na interface.
 Observações:
 
+* Na planilha excel, tem de haver as colunas **"Email"** e **"Nome"**.
+
 * Certifique-se de que a conta de e-mail do remetente tenha permissão para enviar e-mails via SMTP.
 
 * Utilize uma senha de aplicativo do Google para autenticação, garantindo maior segurança e evitando problemas de acesso.
