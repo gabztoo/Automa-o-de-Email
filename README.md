@@ -14,9 +14,9 @@ Anexo de Arquivos: Oferece a opção de anexar arquivos aos e-mails a serem envi
 
 Feedback de Envio: Fornece feedback em tempo real sobre para quem cada e-mail foi enviado.
 
-Pré-requisitos:
+## Pré-requisitos:
 
-## Antes de executar o script, certifique-se de ter instalado todas as dependências necessárias. Você pode instalar as dependências listadas no arquivo requirements.txt usando o comando:
+Antes de executar o script, certifique-se de ter instalado todas as dependências necessárias. Você pode instalar as dependências listadas no arquivo requirements.txt usando o comando:
 
 
 `pip install -r requirements.txt`
