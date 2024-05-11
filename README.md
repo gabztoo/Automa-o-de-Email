@@ -1,6 +1,6 @@
 # Envio de E-mails em Massa utilizando Tkinter e Pandas
 
-Este é um script Python que utiliza a biblioteca Tkinter para criar uma interface gráfica simples e permitir o envio de e-mails em massa. O script carrega dados de um arquivo Excel, preenche os campos do e-mail com informações personalizadas e permite anexar arquivos antes de enviar os e-mails.
+Este é um Programa .exe que segue script Python que utiliza a biblioteca Tkinter para criar uma interface gráfica simples e permitir o envio de e-mails em massa. O script carrega dados de um arquivo Excel, preenche os campos do e-mail com informações personalizadas e permite anexar arquivos antes de enviar os e-mails.
 
 ## Funcionalidades:
 
