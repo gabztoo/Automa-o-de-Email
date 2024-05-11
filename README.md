@@ -32,7 +32,8 @@ Escreva o assunto e o corpo do e-mail.
 Se desejar, anexe um arquivo.
 Clique no botão "Enviar E-mails" para iniciar o envio.
 Aguarde até que todos os e-mails sejam enviados. O progresso será exibido na interface.
-Observações:
+
+## Observações:
 
 * Na planilha excel, tem de haver as colunas **"Email"** e **"Nome"** (segue exemplo)
 ![imagem_2024-05-10_195617670](https://github.com/gabztoo/Automa-o-de-Email/assets/162667498/078b51b6-e4db-4f52-9430-bc1c51c13a6f)
